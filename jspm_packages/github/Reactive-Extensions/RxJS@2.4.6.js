@@ -1,1 +1,0 @@
-module.exports = require("github:Reactive-Extensions/RxJS@2.4.6/index");
