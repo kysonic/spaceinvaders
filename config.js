@@ -1,0 +1,16 @@
+System.config({
+  "baseURL": "/",
+  "paths": {
+    "*": "*.js",
+    "github:*": "jspm_packages/github/*.js"
+  }
+});
+
+System.config({
+  "map": {
+    "Reactive-Extensions/RxJS": "github:Reactive-Extensions/RxJS@2.4.6",
+    "traceur": "github:jmcriffey/bower-traceur@0.0.87",
+    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87"
+  }
+});
+
